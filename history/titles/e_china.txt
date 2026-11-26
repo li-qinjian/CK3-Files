@@ -1737,6 +1737,7 @@ k_daibei = {
 		liege = h_china
 		government = celestial_government
 		effect = { set_title_name = k_daibei }
+		succession_laws = { single_heir_succession_law }
 	}
 	1066.1.1 = {
 		holder = nn_yelu_shusi
@@ -1952,7 +1953,10 @@ k_qingxu = {
 }
 
 k_hebei = {
-	867.1.1 = { change_prosperity_level = 12 }
+	867.1.1 = { 
+		change_prosperity_level = 12 
+		succession_laws = { single_heir_succession_law }
+	}
 	1066.1.1 = { change_prosperity_level = 12 }
 	1178.1.1 = { change_prosperity_level = 16 }
 	216.4.1 = {
@@ -2073,7 +2077,10 @@ k_raole = {
 }
 
 k_youji = {
-	867.1.1 = { change_prosperity_level = 8 }
+	867.1.1 = { 
+		change_prosperity_level = 8 
+		succession_laws = { single_heir_succession_law }
+	}
 	1066.1.1 = { change_prosperity_level = 12 }
 	1178.1.1 = { change_prosperity_level = 16 }
 
@@ -5379,18 +5386,18 @@ c_longzhou_2 = {
 d_jinshang = {
 	867.1.1 = {
 		holder = han_2827
-		liege = k_guannei
+		liege = k_xingyuan
 		government = celestial_government
 	}
 	1066.1.1 = {
 		holder = han_6507
-		liege = k_guannei
+		liege = k_xingyuan
 		government = celestial_government
 	}
 	1178.1.1 = {
 		holder = jurchen_magistrate_fic_86
 		government = steppe_admin_government
-		liege = k_guannei
+		liege = k_xingyuan
 	}
 }
 
@@ -9120,17 +9127,17 @@ c_yuezhou_1 = { # 岳州
 	}
 	867.1.1 = {
 		holder = han_1908
-		liege = d_eyue
+		liege = d_hunan
 		government = celestial_government
 	}
 	1066.1.1 = {
 		holder = han_6586
-		liege = d_eyue
+		liege = d_hunan
 		government = celestial_government
 	}
 	1178.1.1 = {
 		holder = han_11862
-		liege = d_eyue
+		liege = d_hunan
 		government = celestial_government
 	}
 }

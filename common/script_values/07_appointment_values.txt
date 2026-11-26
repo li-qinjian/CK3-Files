@@ -1729,3 +1729,37 @@ appointment_score_celestial = {
 		}
 	}
 }
+
+# Tang dynasty and military governors are a special case, so we have a separate score for them
+appointment_score_celestial_military = {
+	# Domicile
+	if = {
+		limit = {
+			exists = scope:title
+			root.dynasty.dynast ?= {
+				has_domicile = yes
+			}
+			scope:title = {
+				is_de_jure_liege_or_above_target = root.dynasty.dynast.domicile.domicile_location.county
+			}
+		}
+		add = {
+			value = 20
+			desc = ancestral_home
+		}
+	}
+	# Same dynasty as holder bonus
+	if = {
+		limit = {
+			exists = dynasty
+			OR = {
+				scope:title.holder.dynasty ?= root.dynasty
+				liege.dynasty ?= root.dynasty
+			}
+		}
+		add = {
+			value = 50
+			desc = closely_related
+		}
+	}
+}

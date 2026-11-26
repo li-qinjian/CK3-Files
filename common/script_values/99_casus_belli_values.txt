@@ -1319,7 +1319,15 @@ duchy_cb_piety_base_cost = {
 		}
 		add = {
 			value = 10
-			multiply = scope:attacker.sub_realm_size
+			if = {
+				limit = {
+					scope:attacker.sub_realm_size >= scope:defender.sub_realm_size
+				}
+				multiply = scope:attacker.sub_realm_size
+			}
+			else = {
+				multiply = scope:defender.sub_realm_size
+			}
 			desc = CB_REALM_SIZE_COST
 			max = 800
 		}

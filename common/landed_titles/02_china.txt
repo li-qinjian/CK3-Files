@@ -2133,60 +2133,6 @@ h_china = {
 					}
 				}
 			}
-			d_jinshang = {
-				color = { 120 120 110 }
-
-				capital = c_jinzhou_1
-
-				c_jinzhou_1 = {
-					color = { 134 134 125 }
-
-					b_xicheng = {
-						province = 13065
-
-						color = { 147 147 139 }
-					}
-					b_ankang = {
-						province = 10049
-
-						color = { 120 119 112 }
-					}
-					b_shiquan = {
-						province = 10050
-
-						color = { 133 133 119 }
-					}
-					b_xunyang_2 = {
-						province = 13063
-
-						color = { 124 125 119 }
-					}
-				}
-				c_shangzhou = {
-					color = { 108 107 99 }
-
-					b_shangluo = {
-						province = 10051
-
-						color = { 124 123 116 }
-					}
-					b_shangjin = {
-						province = 10054
-
-						color = { 97 95 89 }
-					}
-					b_shanglo = {
-						province = 10052
-
-						color = { 109 107 95 }
-					}
-					b_qianyuan_1 = {
-						province = 10053
-
-						color = { 98 99 93 }
-					}
-				}
-			}
 			d_binning = {
 				capital = c_binzhou
 
@@ -5176,30 +5122,6 @@ h_china = {
 						color = { 80 13 29 }
 					}
 				}
-				c_yuezhou_1 = {
-					color = { 101 6 6 }
-
-					b_baling = {
-						province = 10399
-
-						color = { 117 34 34 }
-					}
-					b_changjiang = {
-						province = 10400
-
-						color = { 91 6 7 }
-					}
-					b_linxiang = {
-						province = 12984
-
-						color = { 102 13 2 }
-					}
-					b_xiangyin = {
-						province = 13159
-
-						color = { 91 10 19 }
-					}
-				}
 				c_huangzhou = {
 					color = { 90 14 31 }
 
@@ -5378,6 +5300,30 @@ h_china = {
 						province = 8963
 
 						color = { 255 163 78 }
+					}
+				}
+				c_yuezhou_1 = {
+					color = { 101 6 6 }
+
+					b_baling = {
+						province = 10399
+
+						color = { 117 34 34 }
+					}
+					b_changjiang = {
+						province = 10400
+
+						color = { 91 6 7 }
+					}
+					b_linxiang = {
+						province = 12984
+
+						color = { 102 13 2 }
+					}
+					b_xiangyin = {
+						province = 13159
+
+						color = { 91 10 19 }
 					}
 				}
 			}
@@ -5984,6 +5930,60 @@ h_china = {
 						province = 9749
 
 						color = { 101 182 211 }
+					}
+				}
+			}
+			d_jinshang = {
+				color = { 120 120 110 }
+
+				capital = c_jinzhou_1
+
+				c_jinzhou_1 = {
+					color = { 134 134 125 }
+
+					b_xicheng = {
+						province = 13065
+
+						color = { 147 147 139 }
+					}
+					b_ankang = {
+						province = 10049
+
+						color = { 120 119 112 }
+					}
+					b_shiquan = {
+						province = 10050
+
+						color = { 133 133 119 }
+					}
+					b_xunyang_2 = {
+						province = 13063
+
+						color = { 124 125 119 }
+					}
+				}
+				c_shangzhou = {
+					color = { 108 107 99 }
+
+					b_shangluo = {
+						province = 10051
+
+						color = { 124 123 116 }
+					}
+					b_shangjin = {
+						province = 10054
+
+						color = { 97 95 89 }
+					}
+					b_shanglo = {
+						province = 10052
+
+						color = { 109 107 95 }
+					}
+					b_qianyuan_1 = {
+						province = 10053
+
+						color = { 98 99 93 }
 					}
 				}
 			}

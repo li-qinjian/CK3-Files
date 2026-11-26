@@ -89,6 +89,26 @@ catalyst_imperial_examinations_gap_long_yearly_value = 10
 dynastic_cycle_hegemony_higher_court_position_salaries_value = 0.2
 corruption_phase_governor_efficiency_penalty_value = 5
 
+favored_movement_consults_heaven_decision_cost_value = {
+	value = monumental_influence_value
+	if = {
+		limit = {
+			is_ai = no
+		}
+		value = 0
+	}
+}
+
+favored_movement_consults_heaven_cooldown_value = {
+	value = 10
+	if = {
+		limit = {
+			is_ai = no
+		}
+		value = 1
+	}
+}
+
 below_legitimacy_catalyst_over_time_value = {
 	value = 20
 	# increasing the value in stability as you are expected to be more legitimate the longer you are stable

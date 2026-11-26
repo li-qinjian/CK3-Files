@@ -1324,6 +1324,7 @@ chinese_consolidation_cb = {
 	should_show_war_goal_subview = no
 
 	allowed_for_character = {
+		has_government = celestial_government
 		situation:dynastic_cycle ?= {
 			situation_current_phase = situation_dynastic_cycle_phase_chaos
 		}
@@ -1383,6 +1384,7 @@ chinese_consolidation_cb = {
 	allowed_against_character = {
 		#Must be within Dynastic Cycle
 		exists = top_participant_group:dynastic_cycle
+		has_government = celestial_government
 	}
 
 	target_titles = neighbor_land_or_water
@@ -1644,11 +1646,11 @@ chinese_consolidation_cb = {
 	attacker_score_from_battles_scale = 150
 	defender_score_from_battles_scale = 150
 
-	max_defender_score_from_battles = 100
+	max_defender_score_from_battles = 150
 	max_attacker_score_from_battles = 100
 
 	max_defender_score_from_occupation = 150
-	max_attacker_score_from_occupation = 150
+	max_attacker_score_from_occupation = 100
 }
 
 chinese_reunification_cb = {
